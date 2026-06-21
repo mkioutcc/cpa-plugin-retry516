@@ -4,6 +4,8 @@
 
 It is designed for the issue discussed in [`router-for-me/CLIProxyAPI#3937`](https://github.com/router-for-me/CLIProxyAPI/discussions/3937), where GPT-5/Codex requests sent through third-party clients sometimes appear to be reasoning-limited and report `reasoning_tokens = 516`.
 
+Requires CLIProxyAPI `v7.2.26` or newer because it uses the `model_router` plugin capability.
+
 ## How it works
 
 The plugin registers two capabilities:
@@ -79,15 +81,15 @@ plugins:
 ## Install through Plugin Store
 
 1. Publish this repository to GitHub at `https://github.com/mkioutcc/cpa-plugin-retry516`.
-2. Create a tag such as `v0.1.1`.
+2. Create a tag such as `v0.1.2`.
 3. Let GitHub Actions publish release assets:
 
    ```text
-   retry516_0.1.1_linux_amd64.zip
-   retry516_0.1.1_linux_arm64.zip
-   retry516_0.1.1_darwin_amd64.zip
-   retry516_0.1.1_darwin_arm64.zip
-   retry516_0.1.1_windows_amd64.zip
+   retry516_0.1.2_linux_amd64.zip
+   retry516_0.1.2_linux_arm64.zip
+   retry516_0.1.2_darwin_amd64.zip
+   retry516_0.1.2_darwin_arm64.zip
+   retry516_0.1.2_windows_amd64.zip
    checksums.txt
    ```
 
