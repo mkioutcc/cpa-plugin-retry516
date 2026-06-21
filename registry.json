@@ -6,7 +6,7 @@
       "name": "Retry 516",
       "description": "Retries matching GPT-5/Codex requests once when the upstream response reports exactly 516 reasoning tokens.",
       "author": "mkioutcc",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "repository": "https://github.com/mkioutcc/cpa-plugin-retry516",
       "homepage": "https://github.com/mkioutcc/cpa-plugin-retry516",
       "license": "MIT",

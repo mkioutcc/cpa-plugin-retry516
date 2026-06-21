@@ -79,15 +79,15 @@ plugins:
 ## Install through Plugin Store
 
 1. Publish this repository to GitHub at `https://github.com/mkioutcc/cpa-plugin-retry516`.
-2. Create a tag such as `v0.1.0`.
+2. Create a tag such as `v0.1.1`.
 3. Let GitHub Actions publish release assets:
 
    ```text
-   retry516_0.1.0_linux_amd64.zip
-   retry516_0.1.0_linux_arm64.zip
-   retry516_0.1.0_darwin_amd64.zip
-   retry516_0.1.0_darwin_arm64.zip
-   retry516_0.1.0_windows_amd64.zip
+   retry516_0.1.1_linux_amd64.zip
+   retry516_0.1.1_linux_arm64.zip
+   retry516_0.1.1_darwin_amd64.zip
+   retry516_0.1.1_darwin_arm64.zip
+   retry516_0.1.1_windows_amd64.zip
    checksums.txt
    ```
 

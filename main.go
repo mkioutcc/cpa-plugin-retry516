@@ -8,7 +8,7 @@ const (
 	pluginRepo = "https://github.com/mkioutcc/cpa-plugin-retry516"
 )
 
-var pluginVersion = "0.1.0"
+var pluginVersion = "0.1.1"
 
 func pluginRegistration() registration {
 	return registration{
