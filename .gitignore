@@ -1,0 +1,19 @@
+# Build outputs
+*.so
+*.dylib
+*.dll
+*.h
+/dist/
+/bin/
+/*.zip
+/*.sha256
+/checksums.txt
+
+# Go
+/go.work
+/vendor/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
